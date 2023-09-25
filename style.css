@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+.container{
+    /* display:flex; */
+    border:1px solid red;
+    background-color:white;
+    height: 632px;
+    width:632px;
+    margin:auto;
+    margin-top: 50px;
+
+    display:flex;
+    flex-wrap:wrap;
+    
+
+}
+.container div{
+   
+    border:1px solid black;
+    margin:0;
+}
+#reset,#toggle{
+    margin:100px;
+
+}
